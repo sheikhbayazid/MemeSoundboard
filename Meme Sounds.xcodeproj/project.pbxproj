@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,41 @@
 		400B9F4B24CDEF72005E3994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F4A24CDEF72005E3994 /* Assets.xcassets */; };
 		400B9F4E24CDEF72005E3994 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F4D24CDEF72005E3994 /* Preview Assets.xcassets */; };
 		400B9F5124CDEF72005E3994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F4F24CDEF72005E3994 /* LaunchScreen.storyboard */; };
+		400B9F5924CDF1C4005E3994 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B9F5824CDF1C4005E3994 /* PlaySound.swift */; };
+		400B9F6224CDFE9D005E3994 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 400B9F6124CDFE9D005E3994 /* Neumorphic */; };
+		400B9F6A24CE1953005E3994 /* here we go agin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F6924CE1953005E3994 /* here we go agin.mp3 */; };
+		400B9F6C24CE1B3C005E3994 /* bruh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F6B24CE1B3B005E3994 /* bruh.mp3 */; };
+		400B9F6F24CE1BC1005E3994 /* gocoronago.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F6D24CE1BC1005E3994 /* gocoronago.mp3 */; };
+		400B9F7024CE1BC1005E3994 /* coronavirus bitch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F6E24CE1BC1005E3994 /* coronavirus bitch.mp3 */; };
+		400B9F7A24CE8657005E3994 /* coffin-dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F7924CE8657005E3994 /* coffin-dance.mp3 */; };
+		400B9F7C24CE86A2005E3994 /* okay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F7B24CE86A1005E3994 /* okay.mp3 */; };
+		400B9F7E24CE86DF005E3994 /* end-career.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F7D24CE86DF005E3994 /* end-career.mp3 */; };
+		400B9F8424CE878C005E3994 /* surprise-madafaka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F8324CE878C005E3994 /* surprise-madafaka.mp3 */; };
+		400B9F8624CE87F9005E3994 /* do-you-know-the-way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F8524CE87F9005E3994 /* do-you-know-the-way.mp3 */; };
+		400B9F8824CE88A6005E3994 /* youre-not-really-fine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F8724CE88A6005E3994 /* youre-not-really-fine.mp3 */; };
+		400B9F8A24CE88BD005E3994 /* why.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400B9F8924CE88BD005E3994 /* why.mp3 */; };
+		405884B92605C20B0046BF42 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405884B82605C20B0046BF42 /* ButtonView.swift */; };
+		40ABEBE424E1666A009DF3EC /* name is john cina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBE324E1666A009DF3EC /* name is john cina.mp3 */; };
+		40ABEBE724E16733009DF3EC /* smoke weed everyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBE624E16733009DF3EC /* smoke weed everyday.mp3 */; };
+		40ABEBE924E1A2ED009DF3EC /* woah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBE824E1A2ED009DF3EC /* woah.mp3 */; };
+		40ABEBEB24E1A34B009DF3EC /* ladies-and-gentlemen-we-got-him.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBEA24E1A34B009DF3EC /* ladies-and-gentlemen-we-got-him.mp3 */; };
+		40ABEBED24E1A37D009DF3EC /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBEC24E1A37D009DF3EC /* error.mp3 */; };
+		40ABEBEF24E1A39F009DF3EC /* dammmn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBEE24E1A39F009DF3EC /* dammmn.mp3 */; };
+		40ABEBF124E1A3C9009DF3EC /* ah-haha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40ABEBF024E1A3C9009DF3EC /* ah-haha.mp3 */; };
+		40D1AE2224E12D32000E8B12 /* airhorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2124E12D32000E8B12 /* airhorn.mp3 */; };
+		40D1AE2424E12E02000E8B12 /* fail-sound-effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2324E12E02000E8B12 /* fail-sound-effect.mp3 */; };
+		40D1AE2624E13032000E8B12 /* lol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2524E13032000E8B12 /* lol.mp3 */; };
+		40D1AE2824E131EC000E8B12 /* oh-my-god-wow-african-guy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2724E131EC000E8B12 /* oh-my-god-wow-african-guy.mp3 */; };
+		40D1AE2A24E13242000E8B12 /* nani.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2924E13242000E8B12 /* nani.mp3 */; };
+		40D1AE2C24E1325F000E8B12 /* really-nigga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2B24E1325F000E8B12 /* really-nigga.mp3 */; };
+		40D1AE2E24E1326D000E8B12 /* run-vine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2D24E1326D000E8B12 /* run-vine.mp3 */; };
+		40D1AE3024E1327C000E8B12 /* shocked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE2F24E1327C000E8B12 /* shocked.mp3 */; };
+		40D1AE3224E13384000E8B12 /* why-are-you-geh.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE3124E13384000E8B12 /* why-are-you-geh.mp3 */; };
+		40D1AE3424E13594000E8B12 /* boomer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE3324E13594000E8B12 /* boomer.mp3 */; };
+		40D1AE3624E136AD000E8B12 /* areyousureaboutthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 40D1AE3524E136AD000E8B12 /* areyousureaboutthat.mp3 */; };
+		40D1AE3824E139F4000E8B12 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1AE3724E139F4000E8B12 /* HomeView.swift */; };
+		40D1AE3D24E14633000E8B12 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1AE3C24E14633000E8B12 /* MoreView.swift */; };
+		40F8F5D024D41A9200B11ABC /* DarkHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F8F5CF24D41A9200B11ABC /* DarkHostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +59,40 @@
 		400B9F4D24CDEF72005E3994 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		400B9F5024CDEF72005E3994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400B9F5224CDEF72005E3994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400B9F5824CDF1C4005E3994 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		400B9F6924CE1953005E3994 /* here we go agin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "here we go agin.mp3"; sourceTree = "<group>"; };
+		400B9F6B24CE1B3B005E3994 /* bruh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bruh.mp3; sourceTree = "<group>"; };
+		400B9F6D24CE1BC1005E3994 /* gocoronago.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gocoronago.mp3; sourceTree = "<group>"; };
+		400B9F6E24CE1BC1005E3994 /* coronavirus bitch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coronavirus bitch.mp3"; sourceTree = "<group>"; };
+		400B9F7924CE8657005E3994 /* coffin-dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "coffin-dance.mp3"; sourceTree = "<group>"; };
+		400B9F7B24CE86A1005E3994 /* okay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = okay.mp3; sourceTree = "<group>"; };
+		400B9F7D24CE86DF005E3994 /* end-career.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "end-career.mp3"; sourceTree = "<group>"; };
+		400B9F8324CE878C005E3994 /* surprise-madafaka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "surprise-madafaka.mp3"; sourceTree = "<group>"; };
+		400B9F8524CE87F9005E3994 /* do-you-know-the-way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "do-you-know-the-way.mp3"; sourceTree = "<group>"; };
+		400B9F8724CE88A6005E3994 /* youre-not-really-fine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "youre-not-really-fine.mp3"; sourceTree = "<group>"; };
+		400B9F8924CE88BD005E3994 /* why.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = why.mp3; sourceTree = "<group>"; };
+		405884B82605C20B0046BF42 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		40ABEBE324E1666A009DF3EC /* name is john cina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "name is john cina.mp3"; sourceTree = "<group>"; };
+		40ABEBE624E16733009DF3EC /* smoke weed everyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "smoke weed everyday.mp3"; sourceTree = "<group>"; };
+		40ABEBE824E1A2ED009DF3EC /* woah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = woah.mp3; sourceTree = "<group>"; };
+		40ABEBEA24E1A34B009DF3EC /* ladies-and-gentlemen-we-got-him.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ladies-and-gentlemen-we-got-him.mp3"; sourceTree = "<group>"; };
+		40ABEBEC24E1A37D009DF3EC /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		40ABEBEE24E1A39F009DF3EC /* dammmn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dammmn.mp3; sourceTree = "<group>"; };
+		40ABEBF024E1A3C9009DF3EC /* ah-haha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ah-haha.mp3"; sourceTree = "<group>"; };
+		40D1AE2124E12D32000E8B12 /* airhorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = airhorn.mp3; sourceTree = "<group>"; };
+		40D1AE2324E12E02000E8B12 /* fail-sound-effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fail-sound-effect.mp3"; sourceTree = "<group>"; };
+		40D1AE2524E13032000E8B12 /* lol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lol.mp3; sourceTree = "<group>"; };
+		40D1AE2724E131EC000E8B12 /* oh-my-god-wow-african-guy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh-my-god-wow-african-guy.mp3"; sourceTree = "<group>"; };
+		40D1AE2924E13242000E8B12 /* nani.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nani.mp3; sourceTree = "<group>"; };
+		40D1AE2B24E1325F000E8B12 /* really-nigga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "really-nigga.mp3"; sourceTree = "<group>"; };
+		40D1AE2D24E1326D000E8B12 /* run-vine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "run-vine.mp3"; sourceTree = "<group>"; };
+		40D1AE2F24E1327C000E8B12 /* shocked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shocked.mp3; sourceTree = "<group>"; };
+		40D1AE3124E13384000E8B12 /* why-are-you-geh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "why-are-you-geh.mp3"; sourceTree = "<group>"; };
+		40D1AE3324E13594000E8B12 /* boomer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boomer.mp3; sourceTree = "<group>"; };
+		40D1AE3524E136AD000E8B12 /* areyousureaboutthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = areyousureaboutthat.mp3; sourceTree = "<group>"; };
+		40D1AE3724E139F4000E8B12 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		40D1AE3C24E14633000E8B12 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		40F8F5CF24D41A9200B11ABC /* DarkHostingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkHostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400B9F6224CDFE9D005E3994 /* Neumorphic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +126,9 @@
 		400B9F4324CDEF71005E3994 /* Meme Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				400B9F4424CDEF71005E3994 /* AppDelegate.swift */,
-				400B9F4624CDEF71005E3994 /* SceneDelegate.swift */,
+				40D1AE3B24E13BBD000E8B12 /* App */,
+				40D1AE3A24E13BAC000E8B12 /* Audio Player */,
+				40D1AE3924E13A02000E8B12 /* Views */,
 				400B9F4824CDEF71005E3994 /* ContentView.swift */,
 				400B9F4A24CDEF72005E3994 /* Assets.xcassets */,
 				400B9F4F24CDEF72005E3994 /* LaunchScreen.storyboard */,
@@ -73,6 +144,87 @@
 				400B9F4D24CDEF72005E3994 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		400B9F5A24CDF2EA005E3994 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				40ABEBE224E1604C009DF3EC /* Home Sounds */,
+				40ABEBE524E166DB009DF3EC /* More Sounds */,
+			);
+			path = "Sound Files";
+			sourceTree = "<group>";
+		};
+		40ABEBE224E1604C009DF3EC /* Home Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				400B9F8324CE878C005E3994 /* surprise-madafaka.mp3 */,
+				40D1AE2524E13032000E8B12 /* lol.mp3 */,
+				40D1AE2724E131EC000E8B12 /* oh-my-god-wow-african-guy.mp3 */,
+				40D1AE2B24E1325F000E8B12 /* really-nigga.mp3 */,
+				400B9F6B24CE1B3B005E3994 /* bruh.mp3 */,
+				400B9F7B24CE86A1005E3994 /* okay.mp3 */,
+				40D1AE3124E13384000E8B12 /* why-are-you-geh.mp3 */,
+				400B9F8924CE88BD005E3994 /* why.mp3 */,
+				40D1AE2924E13242000E8B12 /* nani.mp3 */,
+				400B9F8524CE87F9005E3994 /* do-you-know-the-way.mp3 */,
+				40D1AE3524E136AD000E8B12 /* areyousureaboutthat.mp3 */,
+				40D1AE2F24E1327C000E8B12 /* shocked.mp3 */,
+			);
+			path = "Home Sounds";
+			sourceTree = "<group>";
+		};
+		40ABEBE524E166DB009DF3EC /* More Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				40ABEBEC24E1A37D009DF3EC /* error.mp3 */,
+				40ABEBEE24E1A39F009DF3EC /* dammmn.mp3 */,
+				40ABEBF024E1A3C9009DF3EC /* ah-haha.mp3 */,
+				40ABEBE824E1A2ED009DF3EC /* woah.mp3 */,
+				400B9F6924CE1953005E3994 /* here we go agin.mp3 */,
+				40ABEBEA24E1A34B009DF3EC /* ladies-and-gentlemen-we-got-him.mp3 */,
+				40ABEBE324E1666A009DF3EC /* name is john cina.mp3 */,
+				40D1AE3324E13594000E8B12 /* boomer.mp3 */,
+				400B9F8724CE88A6005E3994 /* youre-not-really-fine.mp3 */,
+				40D1AE2124E12D32000E8B12 /* airhorn.mp3 */,
+				40D1AE2324E12E02000E8B12 /* fail-sound-effect.mp3 */,
+				40D1AE2D24E1326D000E8B12 /* run-vine.mp3 */,
+				40ABEBE624E16733009DF3EC /* smoke weed everyday.mp3 */,
+				400B9F6E24CE1BC1005E3994 /* coronavirus bitch.mp3 */,
+				400B9F7D24CE86DF005E3994 /* end-career.mp3 */,
+				400B9F6D24CE1BC1005E3994 /* gocoronago.mp3 */,
+				400B9F7924CE8657005E3994 /* coffin-dance.mp3 */,
+			);
+			path = "More Sounds";
+			sourceTree = "<group>";
+		};
+		40D1AE3924E13A02000E8B12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				405884B82605C20B0046BF42 /* ButtonView.swift */,
+				40D1AE3724E139F4000E8B12 /* HomeView.swift */,
+				40D1AE3C24E14633000E8B12 /* MoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40D1AE3A24E13BAC000E8B12 /* Audio Player */ = {
+			isa = PBXGroup;
+			children = (
+				400B9F5A24CDF2EA005E3994 /* Sound Files */,
+				400B9F5824CDF1C4005E3994 /* PlaySound.swift */,
+			);
+			path = "Audio Player";
+			sourceTree = "<group>";
+		};
+		40D1AE3B24E13BBD000E8B12 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				400B9F4624CDEF71005E3994 /* SceneDelegate.swift */,
+				40F8F5CF24D41A9200B11ABC /* DarkHostingController.swift */,
+				400B9F4424CDEF71005E3994 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +243,9 @@
 			dependencies = (
 			);
 			name = "Meme Sounds";
+			packageProductDependencies = (
+				400B9F6124CDFE9D005E3994 /* Neumorphic */,
+			);
 			productName = "Meme Sounds";
 			productReference = 400B9F4124CDEF71005E3994 /* Meme Sounds.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +257,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Sheikh Bayazid";
 				TargetAttributes = {
 					400B9F4024CDEF71005E3994 = {
@@ -119,6 +274,9 @@
 				Base,
 			);
 			mainGroup = 400B9F3824CDEF71005E3994;
+			packageReferences = (
+				400B9F6024CDFE9D005E3994 /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = 400B9F4224CDEF71005E3994 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,9 +291,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D1AE2224E12D32000E8B12 /* airhorn.mp3 in Resources */,
+				40D1AE3224E13384000E8B12 /* why-are-you-geh.mp3 in Resources */,
+				400B9F6A24CE1953005E3994 /* here we go agin.mp3 in Resources */,
+				40D1AE3024E1327C000E8B12 /* shocked.mp3 in Resources */,
+				40ABEBE424E1666A009DF3EC /* name is john cina.mp3 in Resources */,
+				400B9F8424CE878C005E3994 /* surprise-madafaka.mp3 in Resources */,
+				40ABEBE724E16733009DF3EC /* smoke weed everyday.mp3 in Resources */,
+				40D1AE3424E13594000E8B12 /* boomer.mp3 in Resources */,
+				40D1AE2624E13032000E8B12 /* lol.mp3 in Resources */,
+				400B9F8A24CE88BD005E3994 /* why.mp3 in Resources */,
+				400B9F7E24CE86DF005E3994 /* end-career.mp3 in Resources */,
+				40ABEBED24E1A37D009DF3EC /* error.mp3 in Resources */,
+				40D1AE3624E136AD000E8B12 /* areyousureaboutthat.mp3 in Resources */,
+				400B9F8624CE87F9005E3994 /* do-you-know-the-way.mp3 in Resources */,
+				400B9F6F24CE1BC1005E3994 /* gocoronago.mp3 in Resources */,
+				400B9F7024CE1BC1005E3994 /* coronavirus bitch.mp3 in Resources */,
+				40ABEBEB24E1A34B009DF3EC /* ladies-and-gentlemen-we-got-him.mp3 in Resources */,
+				40ABEBF124E1A3C9009DF3EC /* ah-haha.mp3 in Resources */,
+				40D1AE2C24E1325F000E8B12 /* really-nigga.mp3 in Resources */,
 				400B9F5124CDEF72005E3994 /* LaunchScreen.storyboard in Resources */,
 				400B9F4E24CDEF72005E3994 /* Preview Assets.xcassets in Resources */,
+				400B9F8824CE88A6005E3994 /* youre-not-really-fine.mp3 in Resources */,
+				40D1AE2824E131EC000E8B12 /* oh-my-god-wow-african-guy.mp3 in Resources */,
+				400B9F6C24CE1B3C005E3994 /* bruh.mp3 in Resources */,
 				400B9F4B24CDEF72005E3994 /* Assets.xcassets in Resources */,
+				40D1AE2A24E13242000E8B12 /* nani.mp3 in Resources */,
+				400B9F7A24CE8657005E3994 /* coffin-dance.mp3 in Resources */,
+				40ABEBEF24E1A39F009DF3EC /* dammmn.mp3 in Resources */,
+				400B9F7C24CE86A2005E3994 /* okay.mp3 in Resources */,
+				40ABEBE924E1A2ED009DF3EC /* woah.mp3 in Resources */,
+				40D1AE2E24E1326D000E8B12 /* run-vine.mp3 in Resources */,
+				40D1AE2424E12E02000E8B12 /* fail-sound-effect.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +333,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D1AE3D24E14633000E8B12 /* MoreView.swift in Sources */,
 				400B9F4524CDEF71005E3994 /* AppDelegate.swift in Sources */,
+				405884B92605C20B0046BF42 /* ButtonView.swift in Sources */,
+				40F8F5D024D41A9200B11ABC /* DarkHostingController.swift in Sources */,
+				400B9F5924CDF1C4005E3994 /* PlaySound.swift in Sources */,
+				40D1AE3824E139F4000E8B12 /* HomeView.swift in Sources */,
 				400B9F4724CDEF71005E3994 /* SceneDelegate.swift in Sources */,
 				400B9F4924CDEF71005E3994 /* ContentView.swift in Sources */,
 			);
@@ -192,6 +384,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +445,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -289,12 +483,13 @@
 				DEVELOPMENT_TEAM = SDJDQ86DG5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Meme Sounds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sheikhbayazid.Meme-Sounds";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Meme Sounds";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,12 +504,13 @@
 				DEVELOPMENT_TEAM = SDJDQ86DG5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Meme Sounds/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sheikhbayazid.Meme-Sounds";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Meme Sounds";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +538,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		400B9F6024CDFE9D005E3994 /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		400B9F6124CDFE9D005E3994 /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 400B9F6024CDFE9D005E3994 /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 400B9F3924CDEF71005E3994 /* Project object */;
 }
